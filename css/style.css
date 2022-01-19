@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Pompiere&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Pompiere", cursive;
+  background-image: url(/assets/background.jpg);
+  background-size: cover;
+}
+
+/* For LoginPage Style */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.para {
+  font-size: 60px;
+  width: 60vw;
+  text-align: center;
+  margin-top: -90px;
+  margin-bottom: 80px;
+}
+
+#name {
+  font-size: 60px;
+}
+.nameBox {
+  margin-top: -50px;
+}
+input {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  margin-top: 20px;
+  background: #fbfbfb;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+#btn {
+  font-size: 40px;
+  background-color: #7c99ac;
+  margin-top: 50px;
+}
+#btn:hover {
+  background-color: #ffab76;
+}
