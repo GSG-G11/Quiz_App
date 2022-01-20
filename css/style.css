@@ -43,11 +43,13 @@ input {
   border: none;
   font-size: 20px;
   outline: none;
+  font-family: "Pompiere", cursive;
 }
 #btn {
   font-size: 40px;
   background-color: #7c99ac;
   margin-top: 50px;
+  font-family: "Pompiere", cursive;
 }
 #btn:hover {
   background-color: #ffab76;
