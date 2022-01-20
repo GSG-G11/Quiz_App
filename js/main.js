@@ -1,9 +1,8 @@
 // Start code for Qustion Page
-//St  of userName
-let  head = document.querySelector('.head');
-head.textContent += ' ' + localStorage.getItem('userName');
+// //St  of userName
 
-// End of userName
+
+// // End of userName
 
 // Start code for Login Page
 // Store userName in Local Storge
@@ -20,7 +19,6 @@ btn.addEventListener("click", (value) => {
     }
 });
 // End code for Login Page
-
 
 
 
